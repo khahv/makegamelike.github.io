@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: xxx
 title:  "Welcome to Jekylllyl!"
 body: "alu"
 date:   2018-02-27 01:11:45 -0800
