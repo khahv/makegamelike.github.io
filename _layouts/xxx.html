@@ -19,6 +19,9 @@
   </head>
   <body>
       <div id="header">
+          <nav>
+              <li class="fork"><a href="{{ site.url }}">Home</a></li>
+            </nav>
         <nav>
           <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
           {% if site.show_downloads %}
@@ -27,6 +30,8 @@
             <li class="title">DOWNLOADS</li>
           {% endif %}
         </nav>
+
+       
       </div><!-- end header -->
 <div class="row">
   <div class="postlist">
@@ -34,12 +39,10 @@
         {%- for post in site.posts -%}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
+          <span class="post-meta">{{ post.date | date: date_format }}</span></br>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
-          </h3>
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}

@@ -81,6 +81,9 @@ strong {
   margin-top:70px;
 }
 
+.post-list{
+  font-size: 1.1em;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -226,8 +229,9 @@ dt {
 
       &.fork {
         float: left;
-        margin-left: 0px;
+        margin-left: 10px;
       }
+      
 
       &.downloads {
         float: right;

@@ -19,15 +19,17 @@ Trên Mac OS cũng có thể dùng Xcode tải từ AppStore để code C++.
 Danh sách một số IDE khác:
 
 - `Eclipse`:
-![alt text](https://raw.githubusercontent.com/makegamelike/makegamelike.github.io/master/JavaClassicWithGradle.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/makegamelike/makegamelike.github.io/master/JavaClassicWithGradle.png "Eclipse C++")
 
     Supported OS: Mac OS, Linux, Windows
 
-- Neatbeans:
-
+    [Download Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/oxygen3)
+- `Neatbeans`:
+![alt text]({{ site.url }}/assets/images/scala_samples_in_nb.jpg "Netbeans")
 Supported OS: Mac OS, Linux, Windows
 
-- Codeblocks:
+- `Codeblocks`:
+![alt text]({{ site.url }}/assets/images/codeblocks.png "Code Block")
 
 Supported OS: Mac OS, Linux, Windows
 
