@@ -1,9 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-25T14:24:30+07:00</updated><id>http://localhost:4000/</id><title type="html">Make Game Like</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Mở đầu về lập trình C++!</title><link href="http://localhost:4000/basic/cplusplus/2018/02/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Mở đầu về lập trình C++!" /><published>2018-02-27T16:11:45+07:00</published><updated>2018-02-27T16:11:45+07:00</updated><id>http://localhost:4000/basic/cplusplus/2018/02/27/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/basic/cplusplus/2018/02/27/welcome-to-jekyll.html">&lt;!--&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/oHg5SJYRHA0?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-28T10:34:25+07:00</updated><id>http://localhost:4000/</id><title type="html">Make Game Like</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Dùng IDE nào để code C++!</title><link href="http://localhost:4000/basic/cplusplus/2018/03/25/dung-ide-nao-code-c++.html" rel="alternate" type="text/html" title="Dùng IDE nào để code C++!" /><published>2018-03-25T16:11:45+07:00</published><updated>2018-03-25T16:11:45+07:00</updated><id>http://localhost:4000/basic/cplusplus/2018/03/25/%08dung-ide-nao-code-c++</id><content type="html" xml:base="http://localhost:4000/basic/cplusplus/2018/03/25/dung-ide-nao-code-c++.html">&lt;!--&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/oHg5SJYRHA0?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
 --&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;C++ được rất nhiều &lt;a href=&quot;https://www.google.com&quot;&gt;IDE&lt;/a&gt; (phần mềm để gõ mã C++ vô đó) hỗ trợ trên nhiều nền tảng khác nhau.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Phần mềm dễ dùng và mạnh mẽ nhất để gõ C++ trên Windows hiện này chính là Visual Studio. Trong các trường học cũng rất hay dùng IDE này, nên các bạn nên làm quen với nó. Nên tải phiên bản Community nhé:
+&lt;a href=&quot;https://www.visualstudio.com/downloads/&quot;&gt;Visual Studio Community Edition Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Trên Mac OS và Linux thì có CLion, một IDE C++ khác rất tốt. Tuy nhiên IDE này không miễn phí.&lt;/p&gt;
+
+&lt;p&gt;Trên Mac OS cũng có thể dùng Xcode tải từ AppStore để code C++.&lt;/p&gt;
+
+&lt;p&gt;Danh sách một số IDE khác:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Eclipse&lt;/code&gt;:
+&lt;img src=&quot;https://raw.githubusercontent.com/makegamelike/makegamelike.github.io/master/JavaClassicWithGradle.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Supported OS: Mac OS, Linux, Windows&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Neatbeans:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Supported OS: Mac OS, Linux, Windows&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Codeblocks:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Supported OS: Mac OS, Linux, Windows&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mở đầu về lập trình C++</title><link href="http://localhost:4000/basic/cplusplus/2018/02/27/mo-dau-lap-trinh-c++.html" rel="alternate" type="text/html" title="Mở đầu về lập trình C++" /><published>2018-02-27T16:11:45+07:00</published><updated>2018-02-27T16:11:45+07:00</updated><id>http://localhost:4000/basic/cplusplus/2018/02/27/mo-dau-lap-trinh-c++</id><content type="html" xml:base="http://localhost:4000/basic/cplusplus/2018/02/27/mo-dau-lap-trinh-c++.html">&lt;!--&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/oHg5SJYRHA0?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+--&gt;
 
 &lt;p&gt;Sau đây là ví dụ về một chương trình C++:&lt;/p&gt;
 
@@ -17,26 +45,17 @@
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Phần &lt;code class=&quot;highlighter-rouge&quot;&gt;#include...&lt;/code&gt; chúng ta sẽ khai báo tên những thư viện cần thiết cho chương trình. Ở đây chúng ta dùng thư viện &lt;code class=&quot;highlighter-rouge&quot;&gt;'iostream'&lt;/code&gt;
+cần thiết cho hàm cout để in chuỗi ra màn hình.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Sau khi khai báo các thư viện cần thiết, tiếp theo ta thấy dòng &lt;code class=&quot;highlighter-rouge&quot;&gt;using namespace std;&lt;/code&gt;. Với người mới học C++, chúng ta không cần bận tâm về dòng này. Nếu không có nó, ta sẽ phải ghi 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;std::cout&lt;/code&gt; thay vì &lt;code class=&quot;highlighter-rouge&quot;&gt;cout&lt;/code&gt;. Cứ tạm thời nhớ như vậy đã nhé.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekylllyl!</title><link href="http://localhost:4000/jekyll/update/2018/02/27/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="Welcome to Jekylllyl!" /><published>2018-02-27T16:11:45+07:00</published><updated>2018-02-27T16:11:45+07:00</updated><id>http://localhost:4000/jekyll/update/2018/02/27/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/02/27/welcome-to-jekyll-copy.html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/oHg5SJYRHA0?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Kế tiếp là phần quan trọng nhất của một chương trình C++. Được gọi là phần body, chứa nội dung chạy chính của chương trình.
+Hàm main() sẽ là nơi chương trình khởi chạy đầu tiên.
+Tạm thời chúng ta chỉ cần ghi nhớ cú pháp &lt;code class=&quot;highlighter-rouge&quot;&gt;int main(){.... return 0&lt;/code&gt; cái đã. Từ từ ở các bài sau sẽ chúng ta sẽ tìm hiểu kỹ hơn.&lt;/p&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cout&amp;lt;&amp;lt;&quot;chuoi muon in ra man hinh&lt;/code&gt; là cách mà chúng ta sẽ hiển thị một chuỗi ra màn hình console, nên chương trình ở trên, màn hình của chúng ta sẽ hiển thị dòng chữ:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Programming is great fun!&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Học C++ thật dễ dàng đúng không các bạn!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

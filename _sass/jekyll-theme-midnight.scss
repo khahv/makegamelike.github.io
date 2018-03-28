@@ -75,11 +75,26 @@ strong {
   font-weight: normal;
 }
 
+.postlist {
+  float: left;
+  width: 30%;
+  margin-top:70px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .wrapper {
   max-width:650px;
   margin:0 auto;
   position:relative;
-  padding: 0 20px;
+  // padding: 0 20px;
+  float: left;
+  width: 70%;
 }
 
 section img {
