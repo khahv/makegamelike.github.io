@@ -88,14 +88,18 @@ strong {
   clear: both;
 }
 
+.post-wrapper{
+  float: left;
+  width: 70%;
+}
 .wrapper {
   max-width:650px;
   margin:0 auto;
   position:relative;
-  // padding: 0 20px;
-  float: left;
-  width: 70%;
+   padding: 0 20px;
+  
 }
+
 
 section img {
   max-width: 100%;
