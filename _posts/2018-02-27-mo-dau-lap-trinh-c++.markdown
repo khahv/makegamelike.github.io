@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Mở đầu về lập trình C++"
+sub-title: "Bài 1"
 body: "alu"
 date:   2018-02-27 01:11:45 -0800
 categories: basic cplusplus

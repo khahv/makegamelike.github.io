@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Một số toán tử đặc biệt trong C++"
+sub-title: "Bài 5"
 body: "alu"
 date:   2018-04-02 01:11:45 -0800
 categories: basic cplusplus
