@@ -17,7 +17,7 @@ title: Make Game Like
 email: khaep92@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Chào mừng các bạn đến với Make Game Like, đây là trang web cung cấp hướng dẫn các bài học lập trình
-  máy tính được viết theo cách đơn giản, dễ hiểu. Phù hợp cho người mới bắt đầu lập trình.
+  máy tính được viết theo cách đơn giản, dễ hiểu, phù hợp cho người mới bắt đầu lập trình.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://makegamelike.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

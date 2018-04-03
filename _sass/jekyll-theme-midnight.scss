@@ -8,7 +8,7 @@ body {
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
   font-weight: normal;
-  background-image: url(/assets/images/method-draw-image.svg),linear-gradient(#191c20, #24292e 15%);
+  background-image: url(/assets/images/star-bg.svg),linear-gradient(#191c20, #24292e 15%);
   // background-repeat: repeat-x;
   background-position: center 0, 0 0, 0 0;
 
@@ -263,6 +263,7 @@ section {
     outline: none;
     margin: 0 0 50px 0;
     padding: 0 0 5px 0;
+    text-align: center;
 
     h1 {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -274,7 +275,7 @@ section {
 
     p {
       color: #d7cfbe;
-      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 18px;
       text-align: center;
