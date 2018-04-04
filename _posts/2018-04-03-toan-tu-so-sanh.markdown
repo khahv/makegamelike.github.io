@@ -52,9 +52,9 @@ của `BMI` và **25**. Đồng thời ta giao hai điều kiện này với nha
 Nếu ta đổi toán tử logic `&&` bằng `||`, thay vì giao giữa 2 điều kiện, ta chuyển thành hợp giữa 2 điều kiện. Nghĩa là một trong 2 về đúng, thì nội dung bên trong câu lệnh else if sẽ chạy.
 
 Vd: 
-BMI = 20 -> >=18.5 -> true
-BMI = 100 -> => 18.5 -> true
-BMI = 0 <= 25 -> true
++ BMI = 20 -> >=18.5 -> true
++ BMI = 100 -> => 18.5 -> true
++ BMI = 0 <= 25 -> true
 
 Ở đây ta nhận thấy khi giao 2 điều kiện trên, mọi giá trị của BMI đều thoả điều kiện.
 
