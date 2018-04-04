@@ -53,4 +53,4 @@ Một lưu ý nữa là ở chương trình tên ta viết
 
 `"Phần còn lại"` ở đây là những giá trị nằm ngoài vùng bé hơn **18.5**, tức tất cả các số thực lớn hơn hoặc bằng **18.5**. `"Phần điều kiện mới"` là tất cả các số thực lớn hơn hoặc bằng **18.5** và bé hơn hoặc bằng **25**. Kết hợp 2 điều kiện này ta có điều kiện lớn hơn hoặc bằng **18.5** và bé hơn hoặc bằng **25**.
 
-Các dấu `<, >, <=, >=` ở trên được gọi là toán hạng so sánh. Ở phần sau ta sẽ tìm hiểu kỹ hơn các toán hạng này.
+Các dấu `<, >, <=, >=` ở trên được gọi là toán tử so sánh. Ở phần sau ta sẽ tìm hiểu kỹ hơn các toán tử này.
