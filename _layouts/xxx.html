@@ -36,13 +36,19 @@
       </div><!-- end header -->
 <div class="row">
   <div class="postlist">
+      <!-- {% if page.categories == 'basic' %} -->
+      <!-- <h1>KKK</h1> -->
+      ZZZ
+      <!-- {% endif %} -->
       <ul class="post-list">
-        {%- for post in site.posts -%}
+          <h1>{{ page.categories[0] }} {{ page.categories[1] }}</h1>
+        {% assign cat = page.categories[0] | downcase %}
+        {%- for post in site.categories[cat] -%}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.sub-title | date: date_format }}</span></br>
             <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
+              {{ post.short-title | escape }}
             </a>
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}

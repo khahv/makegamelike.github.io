@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Một số toán tử đặc biệt trong C++"
+short-title: "C++ Toán tử (t.t)"
 sub-title: "Bài 5"
 body: "alu"
 date:   2018-04-02 01:11:45 -0800

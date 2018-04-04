@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Dùng IDE nào để code C++!"
+short-title: "C++ IDE"
 sub-title: "Bài 2"
 body: "alu"
 date:   2018-03-25 01:11:45 -0800

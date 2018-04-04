@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Các hiển thị một biến ra màn hình dùng cout"
+short-title: "C++ Cout"
 sub-title: "Bài 6"
 body: "alu"
 date:   2018-04-02 02:11:45 -0800

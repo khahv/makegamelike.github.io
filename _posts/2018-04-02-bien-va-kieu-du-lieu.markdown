@@ -1,6 +1,7 @@
 ---
 layout: xxx
 title:  "Biến và kiểu dữ liệu"
+short-title: "C++ Biến"
 sub-title: "Bài 3"
 body: "alu"
 date:   2018-04-02 01:11:45 -0800
