@@ -7,7 +7,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-116950613-1');
 </script>
 
@@ -46,66 +45,105 @@
             <li class="title">DOWNLOADS</li>
           {% endif %}
         </nav>
+        
 
-      
+        
+
       </div><!-- end header -->
 <div class="row">
-  <div class="postlist">
-      <!-- {% if page.categories == 'basic' %} -->
-      <!-- <h1>KKK</h1> -->
-      ZZZ
-      <!-- {% endif %} -->
-      <ul class="post-list">
-          <h1>{{ page.categories[0] }} {{ page.categories[1] }}</h1>
-        {% assign cat = page.categories[0] | downcase %}
-        {%- for post in site.categories[cat] -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.sub-title  }}</span></br>
-          
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {% if page.sub-title == post.sub-title %}
-              <h4>
-              {{ post.short-title | escape }}
-            </h4>
-              {% else %}
-              {{ post.short-title | escape }}
-              {% endif %}
-            </a>
-          
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-  <div class="post-wrapper">
-      <section>
-        <div id="title" text-align="center">
-          <a href="/" >
-            <img  src ="/assets/images/848502_transport_512x512.png" alt="Make Game Like" width="96" height = "96"/>
-          </a>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+  
+      {% assign cat = 999 %}
+      <div id="container">
+
         </div>
-        <h2>{{page.sub-title}} - {{ page.title }}:</h2>
 
-        {{ content }}
+        <div id="post-wrapper" class="post-wrapper">
+            <section>
+              <div id="title" text-align="center">
+                <a href="/" >
+                  <img  src ="/assets/images/848502_transport_512x512.png" alt="Make Game Like" width="96" height = "96"/>
+                </a>
+                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <hr>
+                <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+                <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+              </div>
+              <h2>{{page.sub-title}} - {{ page.title }}:</h2>
+      
+              {{ content }}
+      
+            </section>  
+      
+            <div class="PageNavigation">
+              {% if page.previous.url %}
+                <a class="prev" href="{{page.previous.url}}">&laquo;{{page.previous.sub-title}} -  {{page.previous.title}}</a>
+              {% endif %}
+              {% if page.next.url %}
+                <a class="next" href="{{page.next.url}}">{{page.next.sub-title}} - {{page.next.title}} &raquo;</a>
+              {% endif %}
+            </div>
+        </div>
+      <script>
 
-      </section>  
+        function doCheck(){
+          var w = window,
+          d = document,
+          e = d.documentElement,
+          g = d.getElementsByTagName('body')[0],
+          x = w.innerWidth || e.clientWidth || g.clientWidth,
+          y = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
-      <div class="PageNavigation">
-        {% if page.previous.url %}
-          <a class="prev" href="{{page.previous.url}}">&laquo;{{page.previous.sub-title}} -  {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next" href="{{page.next.url}}">{{page.next.sub-title}} - {{page.next.title}} &raquo;</a>
-        {% endif %}
-      </div>
-  </div>
+          var ratio = x/y;
+          //alert(x + ' × ' + y);
+         // document.write("{% assign width = "  +(eval(x))+  " %}");
+         //alert('');
+        console.log("width/height: " + x/y);
+        check(ratio);
+        }
+          // alert("Hello you");
+          doCheck();
+          window.onresize = function(event) {
+            doCheck();
+      };
+      function check(ratio){
+        if (ratio>=1.5){
+
+          
+          document.getElementById('container').innerHTML = "<div class='postlist'> <ul class=\"post-list\">" +
+"          <h1>{{ page.categories[0] }} {{ page.categories[1] }}</h1>" +
+"        {% assign cat = page.categories[0] | downcase %}" +
+"        {%- for post in site.categories[cat] -%}" +
+"        <li>" +
+"          {%- assign date_format = site.minima.date_format | default: \"%b %-d, %Y\" -%}" +
+"          <span class=\"post-meta\">{{ post.sub-title  }}</span></br>" +
+"          " +
+"            <a class=\"post-link\" href=\"{{ post.url | relative_url }}\">" +
+"              {% if page.sub-title == post.sub-title %}" +
+"              <h4>" +
+"              {{ post.short-title | escape }}" +
+"            </h4>" +
+"              {% else %}" +
+"              {{ post.short-title | escape }}" +
+"              {% endif %}" +
+"            </a>" +
+"          " +
+"          {%- if site.show_excerpts -%}" +
+"            {{ post.excerpt }}" +
+"          {%- endif -%}" +
+"        </li>" +
+"        {%- endfor -%}" +
+"      </ul> </div>";
+          document.getElementById('post-wrapper').style.width = "68%";
+        }else{
+          document.getElementById('container').innerHTML ='';
+          document.getElementById('post-wrapper').style.width = "100%";
+        }
+      }
+        </script>
+
+  
+    
+  
 
   
 </div>
