@@ -61,10 +61,18 @@
         {%- for post in site.categories[cat] -%}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.sub-title | date: date_format }}</span></br>
+          <span class="post-meta">{{ post.sub-title  }}</span></br>
+          
             <a class="post-link" href="{{ post.url | relative_url }}">
+              {% if page.sub-title == post.sub-title %}
+              <h4>
               {{ post.short-title | escape }}
+            </h4>
+              {% else %}
+              {{ post.short-title | escape }}
+              {% endif %}
             </a>
+          
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
@@ -83,6 +91,7 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
+        <h2>{{page.sub-title}} - {{ page.title }}:</h2>
 
         {{ content }}
 

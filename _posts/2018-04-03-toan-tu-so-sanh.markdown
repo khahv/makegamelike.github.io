@@ -11,8 +11,6 @@ categories: basic cplusplus
 
 Phần này sẽ giới thiệu một số toán tử mà trong toán học bình thường không có.
 
-Colons can be used to align columns.
-
 | Toán tử so sánh        | Ý nghĩa           |
 | ------------- |:-------------|
 | <             | Số bên trái có nhỏ hơn số bên phải? |
