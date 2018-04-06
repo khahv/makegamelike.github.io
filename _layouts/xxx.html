@@ -97,7 +97,7 @@
           //alert(x + ' × ' + y);
          // document.write("{% assign width = "  +(eval(x))+  " %}");
          //alert('');
-        console.log("width/height: " + x/y);
+        //console.log("width/height: " + x/y);
         check(ratio);
         }
           // alert("Hello you");
@@ -137,6 +137,8 @@
         }else{
           document.getElementById('container').innerHTML ='';
           document.getElementById('post-wrapper').style.width = "100%";
+          document.getElementById('post-wrapper').getElementsByTagName("section")[0].style.margin = "0 auto";
+
         }
       }
         </script>
