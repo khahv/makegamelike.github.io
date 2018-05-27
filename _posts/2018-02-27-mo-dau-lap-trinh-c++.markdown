@@ -33,9 +33,9 @@ Sau khi khai báo các thư viện cần thiết, tiếp theo ta thấy dòng `u
 
 Kế tiếp là phần quan trọng nhất của một chương trình C++. Được gọi là phần body, chứa nội dung chạy chính của chương trình.
 Hàm main() sẽ là nơi chương trình khởi chạy đầu tiên.
-Tạm thời chúng ta chỉ cần ghi nhớ cú pháp `int main(){.... return 0` cái đã. Từ từ ở các bài sau sẽ chúng ta sẽ tìm hiểu kỹ hơn.
+Tạm thời chúng ta chỉ cần ghi nhớ cú pháp `int main(){.... return 0;}` cái đã. Từ từ ở các bài sau sẽ chúng ta sẽ tìm hiểu kỹ hơn.
 
-`cout<<"chuoi muon in ra man hinh` là cách mà chúng ta sẽ hiển thị một chuỗi ra màn hình console, nên chương trình ở trên, màn hình của chúng ta sẽ hiển thị dòng chữ:
+`cout<<"chuoi muon in ra man hinh"` là cách mà chúng ta sẽ hiển thị một chuỗi ra màn hình console, chuỗi nằm bên trong dấu ngoặc kép sẽ được in ra màn hình. Như trong ví dụ của chương trình trên, màn hình của chúng ta sẽ hiển thị dòng chữ:
 `Programming is great fun!`.
 
 Học C++ thật dễ dàng đúng không các bạn!

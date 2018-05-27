@@ -25,9 +25,11 @@ int main()
 }
 {% endhighlight %}
 
-Ở ví dụ trên `myVariable` là tên của biến cần khai báo, mỗi biến cần có một cái tên để ta phân biệt chúng. `int` chính là kiểu dữ liệu của biến đó, là viết tắt của integer tức số nguyên. Điều này có nghĩa là biến `myVariable` của chúng ta thuộc kiểu [số nguyên](https://vi.wikipedia.org/wiki/S%E1%BB%91_nguy%C3%AAn) (-1, 0, 1, 2...). Tức là `myVariable` là một số nguyên, chúng ta gọi nó là "biến", vì nó có thể thay đổi giá trị.
+Ở ví dụ trên `myVariable` là tên của biến cần khai báo, mỗi biến cần có một cái tên để ta phân biệt chúng. `int` chính là kiểu dữ liệu của biến đó, là viết tắt của integer tức {số nguyên}. Điều này có nghĩa là biến `myVariable` của chúng ta thuộc kiểu [số nguyên](https://vi.wikipedia.org/wiki/S%E1%BB%91_nguy%C3%AAn) (-1, 0, 1, 2...). 
 
-Thay đổi giá trị trong C++ gọi là phép gán. Ta gán một biến trong C++ bằng toán tử "=". 
+Như vậy biến `myVariable` sẽ là một số nguyên khi ta sử dụng nó. Sở dĩ gọi tên "biến" là vì nó có thể thay đổi giá trị.
+
+Muốn thay đổi giá trị một biến trong C++ ta phải dùng phép gán. Ta gán một giá trị vào một biến trong C++ bằng cách dùng toán tử "=". 
 Ví dụ:
 
 {% highlight C %}
@@ -58,7 +60,7 @@ int main()
 }
 {% endhighlight %}
 
-Sau đó ta cũng có thể gán lại giá trị của `myVariable` bằng một giá trị khác (2, 3). Như vậy `myVariable` có thể thay đổi được giá trị bằng phép gán sử dụng dấu "=".
+Sau đó ta cũng có thể gán lại giá trị của biến `myVariable` bằng một giá trị khác (2, 3). Như vậy `myVariable` có thể thay đổi được giá trị bằng phép gán sử dụng dấu "=".
 
 Dưới đây là danh sách một số kiểu dữ liệu trong C++:
 
@@ -70,7 +72,7 @@ Dưới đây là danh sách một số kiểu dữ liệu trong C++:
 
 `char`: kiểu ký tự. Ví dụ: 'a', 'b','@', ' '
 
-Ở bài sau chúng ta sẽ cùng tìm hiểu một số toán tử cơ bản trong C++.
+Ở bài sau chúng ta sẽ cùng tìm hiểu một số toán tử cơ bản khác trong C++.
 
 Học C++ thật dễ dàng đúng không các bạn!
 
